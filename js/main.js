@@ -1,3 +1,29 @@
+function soma(n1, n2) {
+  return n1 + n2;
+}
+
+function setReplace(frase, nome, novoNome) {
+  return frase.replace(nome, novoNome);
+}
+
+alert(soma(5, 10));
+alert(setReplace("Eu gosto de surfar", "surfar", "fotografar"));
+
+let validar = 0;
+
+function validaIdade(idade) {
+  //let validar;
+  if (idade >= 18) {
+    validar = true;
+  } else {
+    validar = false;
+  }
+  return validar;
+}
+
+let idade = prompt("Qual a sua idade?");
+console.log(validaIdade(idade));
+
 /*let dia = new Date();
 alert(dia.getMonth() + 1);
 alert(dia.getFullYear());*/
