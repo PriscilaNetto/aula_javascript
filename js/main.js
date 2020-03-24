@@ -1,3 +1,15 @@
+let count;
+
+for (count = 0; count <= 5; count++) {
+  console.log(count);
+}
+/*let count = 2;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}
+*/
+
 /*let idade = prompt("Qual a sua idade?");
 
 if (idade >= 18) {
