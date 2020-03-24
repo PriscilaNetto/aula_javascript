@@ -1,9 +1,13 @@
-let count;
+/*let dia = new Date();
+alert(dia.getMonth() + 1);
+alert(dia.getFullYear());*/
+
+/*let count;
 
 for (count = 0; count <= 5; count++) {
   console.log(count);
 }
-/*let count = 2;
+let count = 2;
 while (count <= 5) {
   console.log(count);
   count++;
