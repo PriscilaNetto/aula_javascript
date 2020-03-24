@@ -1,4 +1,12 @@
-let nome = "Pri";
+/*let idade = prompt("Qual a sua idade?");
+
+if (idade >= 18) {
+  alert("Você é maior de idade!");
+} else {
+  alert("Você é menor de idade!");
+} */
+
+/*let nome = "Pri";
 let hobby = "fotografar";
 let n1 = 26;
 let n2 = 10;
@@ -11,7 +19,7 @@ let frutas = [
 ];
 console.log(frutas);
 
-console.log(frutas[1].nome);
+console.log(frutas[1].nome);*/
 
 /*let fruta = { nome: "banana", cor: "amarela" };
 console.log(fruta.cor);*/
