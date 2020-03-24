@@ -4,7 +4,17 @@ let n1 = 26;
 let n2 = 10;
 let frase = "Fique em casa e lave as mãos!";
 
-let frutas = ["maçã", "pêra", "morango"];
+let frutas = [
+  { nome: "maçã", cor: "vermelha" },
+  { nome: "banana", cor: "verde" },
+  { nome: "morango", cor: "vermelha" }
+];
+console.log(frutas);
+
+console.log(frutas[1].nome);
+
+/*let fruta = { nome: "banana", cor: "amarela" };
+console.log(fruta.cor);*/
 
 // frutas.push("manga");
 
