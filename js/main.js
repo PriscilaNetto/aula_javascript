@@ -1,4 +1,36 @@
-function soma(n1, n2) {
+function cliqueBotao() {
+  document.getElementById("agradecimento").innerHTML =
+    "<b>Obrigada por clicar</b>";
+  //console.log(document.getElementById("agradecimento"));
+
+  //alert("Obrigada por clicar");
+}
+
+function redirecionar() {
+  window.open("https://www.udemy.com/");
+  // window.location.href = "https://www.udemy.com/";
+}
+
+function trocar(elemento) {
+  elemento.innerHTML = "<i> Fique em casa! </i>";
+  //document.getElementById("mousemove").innerHTML = "<i> Fique em casa! </i>";
+  // alert("trocar texto");
+}
+
+function voltar(elemento) {
+  elemento.innerHTML = "Passe o mouse aqui";
+  //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load() {
+  alert("página carregada");
+}
+
+function change(elemento) {
+  console.log(elemento.value);
+}
+
+/*function soma(n1, n2) {
   return n1 + n2;
 }
 
@@ -22,7 +54,7 @@ function validaIdade(idade) {
 }
 
 let idade = prompt("Qual a sua idade?");
-console.log(validaIdade(idade));
+console.log(validaIdade(idade));*/
 
 /*let dia = new Date();
 alert(dia.getMonth() + 1);
